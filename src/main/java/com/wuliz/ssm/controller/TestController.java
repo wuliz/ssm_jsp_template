@@ -44,7 +44,7 @@ public class TestController {
         return testService.getDbTest();
     }
 
-    //测试数据库连接
+    //测试数据库连接xml方式
     @RequestMapping("/getDbXmlTest")
     @ResponseBody
     public List<Test> getDbXmlTest(){
